@@ -47,8 +47,8 @@
 .carousel-inner {
   height: 670px;
   margin-top: -23px;
-  margin-bottom: -47px;
-  background-color: #00000063;
+  margin-bottom: -67px;
+  /*background-color: #00000063;*/
 }
 
 
@@ -56,5 +56,5 @@
     background-color: yellowgreen;
     color: white;
     text-align: center;
-    margin-bottom: 200px;
+    /*margin-bottom: 200px;*/
 }

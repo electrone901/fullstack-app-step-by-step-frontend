@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 class Navbar extends Component {
@@ -9,10 +9,10 @@ class Navbar extends Component {
 		const authLinks = (
 			<ul className="navbar-nav mr-auto">
 				<li className="nav-item">
-					<a className="nav-link" href="user">Welcome, user</a>
+					<Link to="/" className="nav-link">Welcome, user</Link>
 				</li>
 				<li className="nav-item">
-					<a className="nav-link" href="Logout">Logout</a>
+					<Link  to="/" className="nav-link">Logout</Link>
 				</li>
 			</ul>
 		);
@@ -20,10 +20,10 @@ class Navbar extends Component {
 		const guestLinks = (
 			<ul className="navbar-nav mr-auto">
 				<li className="nav-item">
-					<a className="nav-link" href="SignUp">Sign Up</a>
+					<Link to="/register" className="nav-link">Sign Up</Link>
 				</li>
 				<li className="nav-item">
-					<a className="nav-link" href="Login">Login</a>
+					<Link to="/login" className="nav-link">Login</Link>
 				</li>
 			</ul>
 		);
@@ -31,10 +31,10 @@ class Navbar extends Component {
 		const authLinks2 = (
 			<ul className="navbar-nav mr-auto">
 				<li className="nav-item">
-					<a className="nav-link" href="Portfolio">Portfolio</a>
+					<Link to="/Portfolio" className="nav-link">Portfolio</Link>
 				</li>
 				<li className="nav-item">
-					<a className="nav-link" href="Transactions"> Transactions</a>
+					<Link to="/transactions" className="nav-link"> Transactions</Link>
 				</li>
 			</ul>
 		)
@@ -44,7 +44,7 @@ class Navbar extends Component {
 			<nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4"> 
 				
 				<div className="container">
-					<a className="navbar-brand" href="#">ETRADE</a>
+					<Link to="/" className="navbar-brand" >ETRADE</Link>
 					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
 						<span className="navbar-toggler-icon"></span>
 					</button>

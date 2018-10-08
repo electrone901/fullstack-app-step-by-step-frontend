@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
-import Img1 from '../img/img1.jpg'
-import Img2 from '../img/img2.jpg'
-import Img3 from '../img/img3.jpg'
-import Img4 from '../img/img4.jpg'
-// import { Link } from 
+import Img1 from '../img/img1.jpg';
+import Img2 from '../img/img2.jpg';
+import Img3 from '../img/img3.jpg';
+import Img4 from '../img/img4.jpg';
+import { Link } from 'react-router-dom';
+
+
 class Home extends Component {
 	render() {
 		// const {isAunthenticated} = this.props.auth;  
@@ -15,8 +17,6 @@ class Home extends Component {
 			</div>
 		)
 		return (
-			
-
 			<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
 			  <div className="carousel-inner">
 			    <div className="carousel-item active">
