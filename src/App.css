@@ -30,3 +30,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*======= homeImg =========*/
+/*=========================*/
+/*.homeImg {
+  background: url(img/homeimg.jpg) no-repeat center center fixed; 
+  background-size:  cover;
+  background-color: #999;
+  min-height: 600px;
+  margin-top: -23px;
+  margin-bottom: -47px;
+}
+*/
+
+.carousel-inner {
+  height: 670px;
+  margin-top: -23px;
+  margin-bottom: -47px;
+  background-color: #00000063;
+}
+
+
+.carousel-caption {
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+}
